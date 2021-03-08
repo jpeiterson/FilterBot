@@ -89,12 +89,12 @@ def filters(bot: Bot, update: Update):
     # set trigger -> lower, so as to avoid adding duplicate filters with different cases
     keyword = extracted[0].lower()
 
-    is_sticker = True
-    is_document = True
-    is_image = True
-    is_voice = True
-    is_audio = True
-    is_video = True
+    is_sticker = False
+    is_document = False
+    is_image = False
+    is_voice = False
+    is_audio = False
+    is_video = False
     buttons = []
 
     # determine what the contents of the filter are - text, image, sticker, etc
