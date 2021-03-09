@@ -91,7 +91,7 @@ def filters(bot: Bot, update: Update):
 
     is_sticker = False
     is_document = False
-    is_image = False
+    is_image = True
     is_voice = False
     is_audio = False
     is_video = False
